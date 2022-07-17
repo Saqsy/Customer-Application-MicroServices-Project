@@ -1,4 +1,4 @@
-package com.saqsy.customer;
+package com.saqsy.client.fraud;
 
 
 import lombok.AllArgsConstructor;
