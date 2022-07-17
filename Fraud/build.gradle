@@ -26,6 +26,8 @@ dependencies {
     implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.29'
     implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
     implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
+    implementation 'org.springframework.cloud:spring-cloud-sleuth-zipkin'
+    implementation 'org.springframework.cloud:spring-cloud-starter-sleuth'
 }
 
 dependencyManagement {

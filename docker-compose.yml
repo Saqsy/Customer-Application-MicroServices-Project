@@ -13,4 +13,9 @@ services:
       - "./.data/db:/var/lib/mysql"
     environment:
       MYSQL_ROOT_PASSWORD: pass
-      MYSQL_DATABASE: conference
+      MYSQL_DATABASE: customer
+  zipkin:
+    image: openzipkin/zipkin
+    container_name: zipkin
+    ports:
+      - "9411:9411"
