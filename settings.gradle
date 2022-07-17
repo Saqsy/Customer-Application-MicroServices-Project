@@ -10,4 +10,5 @@ include 'Customer'
 include 'Fraud'
 include 'Edureka-Server'
 include 'Clients'
+include 'ApiGateway'
 
