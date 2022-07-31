@@ -14,7 +14,6 @@ repositories {
 }
 
 dependencies {
-    implementation project(':Clients')
     implementation project(':amqpRabbitMQ')
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
     implementation 'org.springframework.boot:spring-boot-starter-web'
@@ -31,13 +30,11 @@ dependencies {
     implementation 'org.springframework.cloud:spring-cloud-starter-sleuth'
     implementation 'org.springframework.boot:spring-boot-starter-amqp'
 }
-
 dependencyManagement {
     imports {
         mavenBom 'org.springframework.cloud:spring-cloud-dependencies:2021.0.3'
     }
 }
-
 test {
     useJUnitPlatform()
 }
